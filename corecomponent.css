@@ -1,0 +1,57 @@
+.text-center {
+    font-size: 50px;
+  }
+
+  .text-center>span {
+    color: blue;
+  }
+
+  h2>div.container {
+    background-color: gray;
+  }
+  .myBox{
+    /* background-color: gray; */
+    box-shadow:5px 5px 20px 0px grey;
+    padding:20px;
+  }
+
+  .myContainer{
+    height:395px;
+    overflow-y: auto;
+    /* overflow-x: hidden; */
+  }
+
+  .myContainer::-webkit-scrollbar{
+    width:5px;
+    background-color:greenyellow;
+  }
+
+  .myContainer::-webkit-scrollbar-track{
+    width:5px;
+    background-color: cyan;
+    border-radius:30px;
+  }
+  .myContainer::-webkit-scrollbar-thumb{
+    border-radius:5px;
+    background-color: blueviolet;;
+
+  }
+  .nav-link{
+    color:gray;
+  }
+
+  .nav-link:hover{
+    color:blue;
+  }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: blue;
+  background-color: transparent;
+}
+
+.bgCyan{
+background-color: rgba(0, 255, 255, 0.774);
+}
+button{
+font-size: 1rem;
+}
