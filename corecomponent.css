@@ -1,0 +1,78 @@
+.text-center {
+    font-size: 50px;
+  }
+
+  .text-center>span {
+    color: blue;
+  }
+
+  h2>div.container {
+    background-color: gray;
+  }
+
+  .col-3{
+    border-right: 1px solid rgba(128, 128, 128, 0.651);
+  }
+  .myBox{
+    /* background-color: gray; */
+    box-shadow:5px 5px 20px 0px grey;
+    padding:20px;
+  }
+
+  .myContainer{
+    height:395px;
+    overflow-y: auto;
+
+    /* overflow-x: hidden; */
+  }
+
+  .cardWidth{
+    width:30px;
+  }
+
+  .myContainer::-webkit-scrollbar{
+    width:4px;
+    background-color:rgba(128, 128, 128, 0.651);
+  }
+  .borderLeft{
+    border-right: 1px solid rgba(128, 128, 128, 0.651);
+  }
+  .myContainer::-webkit-scrollbar-track{
+    width:5px;
+    /* background-color: cyan; */
+    border-radius:30px;
+  }
+  .myContainer::-webkit-scrollbar-thumb{
+    border-radius:5px;
+    background-color:blue;
+  }
+  .nav{
+    margin:30px 0;
+  }
+  .nav-link{
+    color:gray;
+    margin:10px 0;
+  }
+
+  .nav-link:hover{
+    color:blue;
+  }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: blue;
+  background-color: transparent;
+}
+
+.bgCyan{
+background-color: rgb(0 255 255 / 22%);
+
+}
+.card.bgCyan{
+ position:relative;
+}
+button{
+font-size: 1rem;
+}
+.col-9{
+  margin:auto;
+}
